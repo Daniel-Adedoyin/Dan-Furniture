@@ -1,0 +1,32 @@
+@media(max-width:826px){
+    .nav ul{
+        margin-top: 6px;
+    }
+    .nav ul li{
+        border: none;
+    }
+    .nav ul li:hover{
+        border-top: 5px solid red;
+          }
+    .nav h2{
+        text-align: center;   
+    }
+    .nav span{
+        font-size: 10px;
+    }
+}
+@media (max-width:683px){
+    .nav ul li{
+        margin-left: -9px;
+    }
+}
+@media (max-width:238px){
+    .container h2{
+        font-size: 12px;
+    }
+}
+@media (max-width:570px){
+    .nav ul li{
+        float: left;
+    }
+}
